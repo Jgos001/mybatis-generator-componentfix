@@ -53,8 +53,56 @@
         <!-- 生成全部的表 -->
         <!--        <table tableName="%">-->
 
-        <!--        </table>-->
-        <table tableName="login_status_record" domainObjectName="LoginStatusRecord">
+<!--        &lt;!&ndash;        </table>&ndash;&gt;-->
+<!--        <table tableName="credit_point_application" domainObjectName="CreditPointApplication">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+
+<!--        <table tableName="credit_point_application_record" domainObjectName="CreditPointApplicationRecord">-->
+<!--&lt;!&ndash;            <generatedKey column="id" sqlStatement="MySql" identity="true"/>&ndash;&gt;-->
+<!--        </table>-->
+
+<!--        <table tableName="logistics_config" domainObjectName="LogisticsConfig">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+
+<!--        <table tableName="commodity_price_config" domainObjectName="CommodityPriceConfig">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+
+<!--        <table tableName="commodity_price_ladder" domainObjectName="CommodityPriceLadder">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="commodity_price_ladder_property" domainObjectName="CommodityPriceLadderProperty">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+
+<!--        <table tableName="commodity_price_property" domainObjectName="CommodityPriceProperty">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="commodity_price_property_relation" domainObjectName="CommodityPricePropertyRelation">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+
+<!--        <table tableName="commodity_price_config" domainObjectName="CommodityPriceConfig">-->
+<!--        <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--    </table>-->
+
+<!--        <table tableName="commodity_price_selector" domainObjectName="CommodityPriceSelector">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+        <table tableName="commodity_property_price_config" domainObjectName="CommodityPropertyPriceConfig">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
+<!--        <table tableName="commodity_price_property_assem" domainObjectName="CommodityPricePropertyAssem">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="commodity_price_property" domainObjectName="CommodityPriceProperty">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+<!--        <table tableName="commodity_price_ladder_property" domainObjectName="CommodityPriceLadderProperty">-->
+<!--            <generatedKey column="id" sqlStatement="MySql" identity="true"/>-->
+<!--        </table>-->
+
     </context>
 </generatorConfiguration>
